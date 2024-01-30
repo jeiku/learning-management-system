@@ -20,13 +20,13 @@ export const SidebarItem = ({ icon: Icon, label, href }: SidebarItemProps) => {
     pathname === href ||
     pathname?.startsWith(`${href}/`);
 
-  const onClick = () => {
+  const handleClick = () => {
     router.push(href);
   };
 
   return (
     <button
-      onClick={onClick}
+      onClick={handleClick}
       type='button'
       // default classes first, then isActive dynamic classes
       // so, if isActive is true, do dynamic classes

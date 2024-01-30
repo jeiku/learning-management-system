@@ -1,5 +1,5 @@
 "use client";
-//Client Components allow you to write interactive UI that can be rendered on the client at request time. In Next.js, client rendering is opt-in, meaning you have to explicitly decide what components React should render on the client.
+//Client Components allow you to write interactive UI that can be rendered on the client at request time.
 
 import { BarChart, Compass, Layout, List } from "lucide-react";
 import { SidebarItem } from "./sidebar-item";
