@@ -1,4 +1,21 @@
 import Image from "next/image";
 export const Logo = () => {
-  return <Image height={100} width={100} alt='logo' src='/logo.svg' />;
+  return (
+    <>
+      <Image
+        className='inline'
+        height={58}
+        width={58}
+        alt='logo'
+        src='/logo.svg'
+      />
+      <Image
+        className='inline ml-[-15px]'
+        height={58}
+        width={58}
+        alt='logo'
+        src='/logo.svg'
+      />
+    </>
+  );
 };
